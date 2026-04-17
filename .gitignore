@@ -1,0 +1,78 @@
+# ==============================
+# PYTHON / DJANGO
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Static files (collected)
+staticfiles/
+
+# ==============================
+# DJANGO SECRET / CONFIG
+# ==============================
+*.pem
+*.key
+
+# ==============================
+# NODE / REACT
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+build/
+dist/
+
+# ==============================
+# VSCODE / EDITOR
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS FILES
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# TEST / COVERAGE
+# ==============================
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# CACHE
+# ==============================
+.cache/
+pytest_cache/
+
+# ==============================
+# MISC
+# ==============================
+*.bak
+*.tmp
+*.temp
